@@ -36,8 +36,8 @@
         box-sizing: border-box;
     }
     .subcontainer {
-        margin-top: 3rem;
-        margin-bottom: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
         text-align:center;
     }
     .subcontainer h1 {
