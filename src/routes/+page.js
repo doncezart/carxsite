@@ -1,5 +1,5 @@
 import db from './db.json';
-
+export const prerender = true;
 export const load = async (loadEvent) => {
     let combinedArray = [];
     for (let i = 0; i < db.length; i++) {
