@@ -15,7 +15,7 @@ export const load = async (loadEvent) => {
             icon_id: response.guild.icon,
             banner: db[i].banner,
             type: db[i].type,
-            users: response.approximate_member_count - response.approximate_presence_count,
+            users: response.approximate_member_count,
             invite: code,
         };
         combinedArray.push(serverObj)
