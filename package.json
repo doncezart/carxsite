@@ -17,9 +17,9 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@formatjs/intl-segmenter": "^11.5.3",
 		"@fortawesome/fontawesome-free": "^6.5.1",
 		"@fortawesome/free-brands-svg-icons": "^6.5.1",
-		"@fortawesome/free-solid-svg-icons": "^6.5.1",
-		"svelte-fa": "^3.0.4"
+		"@fortawesome/free-solid-svg-icons": "^6.5.1"
 	}
 }

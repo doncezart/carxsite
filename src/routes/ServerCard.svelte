@@ -7,9 +7,16 @@
         border-radius: 0.75rem;
         color: #FFFFFF;
         overflow: hidden;
-        background-color: #18181B;
+        
         height: min-content;
         margin-bottom: 1rem;
+
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
     }
     .banner{
         height: 10.5rem;
@@ -103,7 +110,7 @@
         <div class="bottom">
             <p class="stats"><i class="fa-solid fa-user statsicon"></i>{data.users}</p>
             <button class="btn link visit" type="button">Visit Page</button>
-            <button class="btn discord" type="button" onclick="window.location.href='https://discord.gg/{data.invite}';"><i class="fa-brands fa-discord ispacer"></i>     Join Now</button>
+            <button class="btn main" type="button" onclick="window.location.href='https://discord.gg/{data.invite}';"><i class="fa-brands fa-discord"></i>     Join Now</button>
             
             
         </div>

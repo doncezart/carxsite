@@ -1,0 +1,111 @@
+.btn{
+    padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+    margin: 0;
+    border: 0;
+    border-radius: 0.25rem;
+    transition: 0.3s;
+
+    
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+/* DISCORD BUTTON */ 
+
+.discord{
+    background-color: #7289da;
+    color: #FFFFFF;
+}
+.discord:hover{
+    background-color: #5B6DAE;
+    cursor:pointer;
+}
+.discord:active{
+    background-color: #4f5f98;
+}
+
+/* MAIN BUTTON */
+
+.main{
+    background-color: #4717F6;
+    color: #FFFFFF;
+}
+.main:hover{
+    background-color: #c03838;
+    cursor:pointer;
+}
+.main:active{
+    background-color: #902a2a;
+}
+
+.main-border{
+    background-color: rgba(0,0,0,0);
+    border: solid 0.12rem #4717F6;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.main-border:hover{
+    border: solid 0.12rem #c03838;
+}
+
+.white{
+    background-color: #FFFFFF;
+    color: #18181B;
+}
+.white:hover{
+    background-color: #18181B;
+    cursor: pointer;
+}
+
+/* SECONDARY BUTTON */
+
+.secondary{
+    background-color: #18181B;
+    color: #737374;
+}
+
+/* BORDER BUTTON */
+
+.border{
+    background-color: rgba(0,0,0,0);
+    border: solid 0.12rem #27272A;
+    color: #FFFFFF;
+}
+.border:hover{
+    background-color: #27272A;
+    cursor:pointer;
+}
+.border:active{
+    background-color: #18181B;
+}
+
+/* GHOST BUTTON */
+
+.ghost{
+    background-color: rgba(0,0,0,0);
+    color: #FFFFFF;
+}
+.ghost:hover{
+    background-color: #27272A;
+    cursor:pointer;
+}
+.ghost:active{
+    background-color: #18181B;
+}
+
+/* LINK BUTTON */
+
+.link{
+    background-color: rgba(0,0,0,0);
+    color: #FFFFFF;
+}
+.link:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.selected{
+    background-color: #4717F6;
+}
