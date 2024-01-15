@@ -1,4 +1,4 @@
-import db from './db.json';
+import db from '/src/db.json';
 export const prerender = true;
 export const load = async (loadEvent) => {
     let combinedArray = [];
