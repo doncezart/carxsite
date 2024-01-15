@@ -45,7 +45,7 @@
 </script>
 <div class="landing">
     <div class="pre"><span>CarX Drift Racing Online</span></div>
-    <div class="type"><h1>Discover Communities, Mods and Lobbies<br/>All in One Place!</h1></div> 
+    <div class="type"><h1>Discover Teams, Mods and Lobbies<br/>All in One Place!</h1></div> 
     <button class="btn main" type="button" onclick="window.location.href='https://discord.gg/6G8VX4JnBr'"><i class="fa-brands fa-discord fa-fw"></i> Join our official server</button>
 </div>
 

@@ -8,7 +8,7 @@
         color: #FFFFFF;
         overflow: hidden;
         
-        height: min-content;
+        
         margin-bottom: 1rem;
 
         background: rgba(255, 255, 255, 0.1);
