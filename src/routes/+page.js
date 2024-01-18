@@ -5,8 +5,8 @@ export const load = async (loadEvent) => {
     for (let i = 0; i < db.length; i++) {
         const { fetch } = loadEvent;
         var code = db[i].invite
-        var response = await fetch('https://mocki.io/v1/53a5b078-64f3-47e6-b39c-8473150ca582');
-        /* var response = await fetch(`https://discord.com/api/invites/${code}?with_counts=true`); */
+        /* var response = await fetch('https://mocki.io/v1/ab68bd77-82c7-4c48-b4d4-f19d5ad7b385'); */
+        var response = await fetch(`https://discord.com/api/invites/${code}?with_counts=true`);
         var response = await response.json();
         
         var serverObj = {

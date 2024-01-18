@@ -7,15 +7,7 @@
         border-radius: 0.75rem;
         color: #FFFFFF;
         overflow: hidden;
-        
-        
         margin-bottom: 1rem;
-
-        background: rgba(255, 255, 255, 0.1);
-        border-radius: 16px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
         border: 1px solid rgba(255, 255, 255, 0.3);
     }
     .banner{
@@ -95,7 +87,7 @@
         margin-right: 0.25rem;
     }
 </style>
-<div class="container">
+<div class="container glass">
     <div class="top">
         <img class="banner" src={data.banner} alt="Server Banner">
         <div class="category"><p class="tag"><span id="type">{data.type}</span></p></div>
@@ -108,9 +100,9 @@
         <p class="description">{data.description}</p>
         
         <div class="bottom">
-            <p class="stats"><i class="fa-solid fa-user statsicon"></i>{data.users}</p>
+            <p class="stats"><i class="fa-solid fa-user statsicon"></i>{data.users.toLocaleString('en-US')}</p>
             <button class="btn link visit" type="button">Visit Page</button>
-            <button class="btn main" type="button" onclick="window.location.href='https://discord.gg/{data.invite}';"><i class="fa-brands fa-discord"></i>     Join Now</button>
+            <button class="btn main" type="button" onclick="window.location.href='https://discord.gg/{data.invite}';"><i class="fa-brands fa-discord"></i> Join Now</button>
             
             
         </div>
