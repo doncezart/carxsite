@@ -11,8 +11,8 @@
                 <div class="footbtns">
                     <p class="footbtn"><a href="/#home" class="foothref">Home</a></p>
                     <p class="footbtn"><a href="/#servers" class="foothref">Servers</a></p>
-                    <p class="footbtn"><a href="/#events" class="foothref">Events</a></p>
-                    <p class="footbtn"><a href="/#mods" class="foothref">Mods</a></p>
+                    <p class="footbtn"><a href="/" class="foothref">Events</a></p>
+                    <p class="footbtn"><a href="/" class="foothref">Mods</a></p>
                 </div>
             </div>
             <div class="something" style="overflow: hidden; text-align: right">
