@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-    <script defer src="https://eu.umami.is/script.js" data-website-id="fdcfad69-c717-43b7-81e7-8fd6db41b7e5"></script>
+    <script async src="http://162.248.103.8:3000/script.js" data-website-id="8834164c-90e5-487b-9c4d-869de7fe6ca4"></script>
 </svelte:head>
 
 
